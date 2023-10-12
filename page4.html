@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lessons 4th page</title>
+    <style>
+        .absolute-position {
+            position: absolute;
+            top: 50px;
+            left: 100px;
+        }
+        .fixed-position {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+        }
+        .relative-position {
+            position: relative;
+        }
+        .static-position {
+            position: static;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        main {
+            display: flex;
+        }
+
+        article {
+            flex: 1;
+            margin: 10px;
+        }
+
+        aside {
+            background-color: #f2f2f2;
+            padding: 10px;
+            width: 25%;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            clear: both;
+        }
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+
+            aside {
+                width: 100%;
+            }
+        }
+
+        @media (min-width: 769px) {
+            aside {
+                width: 25%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align:center;">TOP LESSONS ABOUT MARTIAL ARTS</h1>
+    </header>
+
+    <main>
+        <article style="background-color: #454241">
+            <h2 style="color: white">Lesson 1<br>Learn to punch</h2>
+            <p style="font-size: 23px; background-color: #a19d9c">Basic Standing Punch – Choku-Zuki<br>
+               Step 1. Adopt the Correct Stance<br>
+               Step 2. Ready Your Fist<br>
+               Step 3. Pick Your Target<br>
+               Step 4. Throw Your Punch<br>
+               Step 5. Blast Your Target<br>
+
+               Lunching Punch – Oi-Zuki<br>
+               Step 1. Adopt a Front Stance<br>
+               Step 2. Move Forward<br>
+               Step 3. Blast Your Target<br>
+
+               Reverse Punch – Gyaku-zuki<br>
+               Step 1. Adopt a Front Stance<br>
+               Step 2. Add a Hip Twist<br>
+               Powerful Punches for the Win!</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBn-R4fRBA1QDLA71VebBqql-I0SFMn9PVIzMQPkzRyZ5JGeCoBgeiJouFjce2BcUu_DQ&usqp=CAU"> 
+        </article>
+
+        <article style="background-color: #454241">
+            <h2 style="color: white">Lesson 2<br>Learn to kick</h2>
+            <p style="font-size: 23px; background-color: #a19d9c">
+               Step 1: Adopt the Correct Stance.<br>
+               Step 2: Chamber the Knee.<br>
+               Step 3: Extend Your Leg.<br>
+               Step 4: Point Your Toes.<br>
+               Step 5: Retract Your Leg.<br>
+               Step 6: Maintain Balance.<br>
+               Step 7: Practice and Repeat.<br></p>
+            <img src="https://t3.ftcdn.net/jpg/02/60/46/84/360_F_260468413_7al9jmzQMRfkQhBNoNqWtjRS9IRvVXrT.jpg">
+        </article>
+    </main>
+
+    <aside>
+        <h2>Watch these videos to learn more precisely</h2>
+        <ul>
+            <li><a href="https://youtube.com/shorts/RtFrQEqLHBs?si=-F7qm_w8kafY5pLT">Types of karate kicks</a></li>
+            <li><a href="https://youtube.com/shorts/e3nSPZ44xKc?si=tdgeUmiaM6lp7fDa">Beginner and advanced kicks</a></li>
+            <li><a href="https://youtu.be/Qb9RIGCYQTg?si=MfmQNAMWRtC4oumI">Improve your kicks</a></li>
+        </ul>
+    </aside>
+
+    <footer style="text-align: center">
+        ©Alichcoder 2023. All Rights Reserved.
+    </footer>
+</body>
+</html>
